@@ -13,6 +13,7 @@ function editStyleByClass(classNames, color) {
             currentClass[i].style.background = color
             currentClass[i].style.color = text
             currentClass[i].style.border = color
+            currentClass[i].style.boxShadow = 0
 
         }
     }
@@ -38,7 +39,7 @@ function changeColors() {
 
     const darkestClassNames = [
         "navbar", "wrapper", "wrap-counts",
-        "item-image", "day", "content", "form-control", "product", "all-container", "lessons"
+        "item-image", "day", "content", "form-control", "product", "all-container", "col-md-12 item",
     ]
 
     const lighterClassNames = [
@@ -52,8 +53,8 @@ function changeColors() {
         "col-md-11 item password-form-block", "faq-item", "panel-heading card-header", "panel-body card-block card-body", "contacts-block",
         "signal-form-container", "signal-list-container", "product-block", "block-padding", "header-accordion", "my-purchases", "message",
         "toast-success toast ng-trigger ng-trigger-flyInOut", "basket", "minus", "plus out-of-bound",
-        "plus", "col-md-12 item", "on-hover", "less-name", "time-place", "name-teacher", "ng-option ng-option-selected", "ng-option ng-option-marked", "ng-option",
-        "ng-dropdown-panel-items scroll-host","counts-tooltip","tooltip-inner"
+        "plus",  "on-hover", "less-name", "time-place", "name-teacher", "ng-option ng-option-selected", "ng-option ng-option-marked", "ng-option",
+        "ng-dropdown-panel-items scroll-host","counts-tooltip","tooltip-inner","login-wrapper login","shadow","lessons"
     ]
 
     const tags = [

@@ -2,10 +2,10 @@
 
 "manifest_version" : 2,
 "name": "DarkStat",
-"version": "1.0.0",
+"version": "1.0",
 "content_scripts": [
     {           
-        "matches":["*://mystat.itstep.org/**/main/*"],
+        "matches":["*://mystat.itstep.org/*"],
         "js":["Content.js"]
     }
 ],
