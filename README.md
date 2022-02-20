@@ -1,5 +1,5 @@
 # DarkStat
-Dark theme Chrome extension
+Dark theme Chrome extension for mystat.itstep.org
 
 ## How to install 
 - go to chrome://extensions/
