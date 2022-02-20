@@ -1,0 +1,28 @@
+{
+
+"manifest_version" : 2,
+"name": "DarkStat",
+"version": "1.0.0",
+"content_scripts": [
+    {           
+        "matches":["*://mystat.itstep.org/**/main/*"],
+        "js":["Content.js"]
+    }
+],
+
+
+"icons": {
+    "512":"512.png"
+}
+    
+
+
+}
+
+
+
+
+
+
+
+
