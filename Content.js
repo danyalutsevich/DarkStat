@@ -39,7 +39,7 @@ function changeColors() {
 
     const darkestClassNames = [
         "navbar", "wrapper", "wrap-counts",
-        "item-image", "day", "content", "form-control", "product", "all-container", "col-md-12 item",
+        "item-image", "day",  "form-control", "product", "all-container", "col-md-12 item","comment-block-textarea ng-untouched ng-pristine ng-valid"
     ]
 
     const lighterClassNames = [
@@ -54,15 +54,18 @@ function changeColors() {
         "signal-form-container", "signal-list-container", "product-block", "block-padding", "header-accordion", "my-purchases", "message",
         "toast-success toast ng-trigger ng-trigger-flyInOut", "basket", "minus", "plus out-of-bound",
         "plus",  "on-hover", "less-name", "time-place", "name-teacher", "ng-option ng-option-selected", "ng-option ng-option-marked", "ng-option",
-        "ng-dropdown-panel-items scroll-host","counts-tooltip","tooltip-inner","login-wrapper login","shadow","lessons"
+        "ng-dropdown-panel-items scroll-host","counts-tooltip","tooltip-inner","login-wrapper login","shadow","lessons","rating-block","all-count",
+        "rating-position","middle-count","text-homework-time-spent-wrap","content","file-drop-description","header-info","body-info","comment-homework",
+        "comment-height","footer-info","active"
     ]
 
     const tags = [
-        "ul",
+        "ul","input",
     ]
 
     editStyleByClass(darkestClassNames, darkest)
     editStyleByClass(lighterClassNames, lighter)
+    editStyleByClass(["active-day"], "#17a2b8")
     editStyleByTag(tags, lighter)
 
 }
