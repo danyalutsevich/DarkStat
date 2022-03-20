@@ -66,6 +66,8 @@ function changeColors() {
     editStyleByClass(darkestClassNames, darkest)
     editStyleByClass(lighterClassNames, lighter)
     editStyleByClass(["active-day"], "#17a2b8")
+    editStyleByClass(["lessons pass"], "#ff5757")
+    editStyleByClass(["lessons lateness"], "#95a700")
     editStyleByTag(tags, lighter)
 
 }
