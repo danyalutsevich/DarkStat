@@ -68,6 +68,7 @@ function changeColors() {
     editStyleByClass(["active-day"], "#17a2b8")
     editStyleByClass(["lessons pass"], "#ff5757")
     editStyleByClass(["lessons lateness"], "#95a700")
+    editStyleByClass(["day has-day is-today"], "#00af66")
     editStyleByTag(tags, lighter)
 
 }
